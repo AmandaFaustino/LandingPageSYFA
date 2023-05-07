@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tajawal&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Tajawal&family=Tenor+Sans&display=swap');
+
+body{
+    background-color: aquamarine;
+    color: black;
+    max-width: 1200px;
+    margin: 0;
+    padding: 10px;
+}
+
+header{
+    left: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+
+}
+
+li{
+    display: inline-block;
+    font-family: 'poppins';
+    font-size: 8;
+    margin: 20px;
+    margin-top: 01px;
+}
+
+a{
+  color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(35,114,145);
+    transition: 0.3s all;
+}
+
+#login-btn{
+    color: rgb(35, 113, 144);
+    border: 2px solid rgb(35, 113, 144);
+    padding: 10px;
+    border-radius: 10px;
+  
+   
+}
+
+#login-btn:hover{
+    background-color: rgb(35, 113, 144) ;
+    color: rgb(35, 113, 144);
+    
+}
+
+h1{
+   
+    position: absolute;
+    top: 04%;
+    left: 18%;    
+    font-family: 'Tenor Sans';
+    font-weight: 400;
+    text-align: right;
+    line-height: 45px;
+}
+
+h2{  
+    position: absolute;
+    top: 08%;
+    left: 18%;
+    font-family: 'Tenor Sans';
+    font-weight: 180;
+    text-align: left;
+    line-height: 45px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#login-btn{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+#login-btn:hover{
+    background-color: rgb(252,234,158);
+    color:rgb(20, 179, 241);
+}
+
+p{
+    
+    top: 40%;
+    align-content: flex-start;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+h3{
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 20px;
+    color: rgb(10, 10, 10);
+}
+
+
+img{  
+width: 275px;
+height: 110px;
+left: 24px;
+top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 45%;
+    background-color: rgb(35,114,145);
+    color: black;
+    font-weight: bold;
+}
+
+form[type="submit"]:hover{
+   cursor: pointer;
+}
+
+input{
+    font-family:'Poppins', sans-serif;
+    margin-top: 10px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.ima{
+    background-image: url("componentes/imagens/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
